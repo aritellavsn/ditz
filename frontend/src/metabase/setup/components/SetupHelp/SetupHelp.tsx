@@ -8,7 +8,7 @@ import { SetupFooterRoot } from "./SetupHelp.styled";
 
 export const SetupHelp = (): JSX.Element => {
   return (
-    <SetupFooterRoot>
+    /*<SetupFooterRoot>
       {t`If you feel stuck`},{" "}
       <ExternalLink
         className={CS.link}
@@ -18,6 +18,6 @@ export const SetupHelp = (): JSX.Element => {
         target="_blank"
       >{t`our getting started guide`}</ExternalLink>{" "}
       {t`is just a click away.`}
-    </SetupFooterRoot>
+    </SetupFooterRoot>*/
   );
 };

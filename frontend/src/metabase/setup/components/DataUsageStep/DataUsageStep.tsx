@@ -64,12 +64,12 @@ export const DataUsageStep = ({
       label={stepLabel}
     >
       <StepDescription>
-        {t`In order to help us improve Metabase, we'd like to collect certain data about product usage.`}{" "}
-        <ExternalLink
+        {t`In order to help us improve Debibase, we'd like to collect certain data about product usage.`}{" "}
+        {/*<ExternalLink
           href={Settings.docsUrl(
             "installation-and-operation/information-collection",
           )}
-        >{t`Here's a full list of what we track and why.`}</ExternalLink>
+        >{t`Here's a full list of what we track and why.`}</ExternalLink>*/}
       </StepDescription>
       <StepToggleContainer>
         <StepToggle
@@ -79,12 +79,12 @@ export const DataUsageStep = ({
           aria-labelledby="anonymous-usage-events-label"
         />
         <StepToggleLabel id="anonymous-usage-events-label">
-          {t`Allow Metabase to anonymously collect usage events`}
+          {t`Allow Debibase to anonymously collect usage events`}
         </StepToggleLabel>
       </StepToggleContainer>
       {isTrackingAllowed && (
         <StepInfoList>
-          <li>{jt`Metabase ${(
+          <li>{jt`Debibase ${(
             <strong key="message">{t`never`}</strong>
           )} collects anything about your data or question results.`}</li>
           <li>{t`All collection is completely anonymous.`}</li>

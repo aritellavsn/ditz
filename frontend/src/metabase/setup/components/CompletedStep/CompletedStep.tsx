@@ -38,13 +38,13 @@ export const CompletedStep = (): JSX.Element | null => {
   return (
     <StepRoot>
       <StepTitle>{t`You're all set up!`}</StepTitle>
-      <StepBody>
+      {/*<StepBody>
         <Switch
           checked={checkboxValue}
           onChange={e => setCheckboxValue(e.target.checked)}
           label={t`Get infrequent emails about new releases and feature updates.`}
         />
-      </StepBody>
+      </StepBody>*/}
       <StepFooter>
         <a
           onClick={handleClick}
@@ -55,7 +55,7 @@ export const CompletedStep = (): JSX.Element | null => {
           )}
           href={baseUrl}
         >
-          {t`Take me to Metabase`}
+          {t`Take me to Debibase`}
         </a>
       </StepFooter>
     </StepRoot>
