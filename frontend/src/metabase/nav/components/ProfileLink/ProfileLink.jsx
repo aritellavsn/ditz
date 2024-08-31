@@ -135,8 +135,8 @@ function ProfileLink({ adminItems, onLogout }) {
               )}
             </div>
           </div>
-          {showTrademark && (
-            <div
+         {/* {showTrademark && ( */}
+            {/* <div
               style={{ borderWidth: "2px" }}
               className={cx(
                 CS.p2,
@@ -145,16 +145,16 @@ function ProfileLink({ adminItems, onLogout }) {
                 CS.textMedium,
                 CS.borderTop,
               )}
-            >
-              <span className={CS.block}>
+            > */}
+             {/* <span className={CS.block}> */}
                 {/* eslint-disable-next-line no-literal-metabase-strings -- This only shows on OSS instance */}
-                <span className={CS.textBold}>Metabase</span>{" "}
+                {/* <span className={CS.textBold}>Metabase</span>{" "} */}
                 {/* eslint-disable-next-line no-literal-metabase-strings -- This only shows on OSS instance */}
-                {t`is a Trademark of`} Metabase, Inc
-              </span>
-              <span>{t`and is built with care by a team from all across this pale blue dot.`}</span>
-            </div>
-          )}
+                {/* {t`is a Trademark of`} Metabase, Inc */}
+              {/* </span> */}
+             {/*} <span>{t`and is built with care by a team from all across this pale blue dot.`}</span> */}
+           {/* </div> */}
+          {/* )} */}
         </Modal>
       ) : null}
     </div>
