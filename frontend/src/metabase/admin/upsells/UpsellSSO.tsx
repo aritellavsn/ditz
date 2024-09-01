@@ -20,7 +20,7 @@ export const UpsellSSO = ({ source }: { source: string }) => {
   }
 
   return (
-    <UpsellCard
+    {/*<UpsellCard
       title={t`Tired of manually managing people and groups?`}
       campaign="sso"
       buttonText={t`Learn more`}
@@ -36,6 +36,6 @@ export const UpsellSSO = ({ source }: { source: string }) => {
           <List.Item>{t`User provisioning with SCIM`}</List.Item>
         </List>
       </Box>
-    </UpsellCard>
+    </UpsellCard>*/}
   );
 };

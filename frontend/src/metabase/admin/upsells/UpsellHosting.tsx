@@ -17,7 +17,7 @@ export const UpsellHosting = ({ source }: { source: string }) => {
   }
 
   return (
-    <UpsellCard
+    {/*<UpsellCard
       title={t`Minimize maintenance`}
       campaign="hosting"
       buttonText={t`Learn more`}
@@ -53,6 +53,6 @@ export const UpsellHostingUpdates = ({ source }: { source: string }) => {
       {jt`${(
         <strong key="migrate">{t`Migrate to Metabase Cloud`}</strong>
       )} for fast, reliable, and secure deployment.`}
-    </UpsellCard>
+    </UpsellCard>*/}
   );
 };
